@@ -1,0 +1,28 @@
+h1{
+    font-family: 'Anton', sans-serif;
+    color:#ce112b;
+    background-color:#020304;
+    text-align: center;
+    border-style: double;
+    border-color: #ce112b;
+    border-width:5px;
+  
+    margin-left: 300px;
+    margin-right: 300px;
+    width:500px;
+
+
+}
+h3{ color: #020304;
+    text-align: justify;
+    font-family: 'Anton', sans-serif;
+
+
+}
+
+.logo{
+    width: 500px;
+    height: auto;
+    margin-left:325px;
+    margin-right:325px;
+}
