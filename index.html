@@ -1,49 +1,45 @@
 <!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Guess The Blazer | Blaine Howitt</title>
 
-<html lang="en-us">
-
-<head>
-   
-    <meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
     
-    <title>Blaine Howitt | Guessing Game</title>
-   
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
-
-</head>
-
 <body>
-    <div>
-    <img class="logo" src="assets/images/Portland Logo.png">
+
+<img class="logo" src="assets/images/Portland-Logo.png">
+
+<h4>Guess The Trail Blazer! Press any key to get started!</h4>
+<h5>If you win (or lose) press any key to restart!</h5>
+
+<br>
+
+<div id=alerts>
+	<pre><p> <span class="alert-line"></span> </p></pre>
+</div>
+
+<div id="game-div" class="panel">
+	<div id="word-display">
+		<p id="word-display-letters"></p>
     </div>
-    
-    <h1>Guessing Game</h1>
-    <br><br><br>
-    <div>
+</div>
 
-    <h4>Press any key to begin!</h4>
-
-    </div>
-
-    <div>
-    <h4>If you run out of guesses before correctly guessing the player you lose!</h4>
-    </div>
-
-
+<br>
+<div id="general-display">
+	<pre><p class="guessed">Guessed Letters</p></pre>
+	<pre><p><span id="guessed-letters">                                                   </span> </p></pre>
+	<pre><p class="stats">Stats</p></pre>
+	<pre><p>Incorrect Letters: <span id="error-count"></span></p></pre>
+	<pre><p>Wins: <span id="win-count"></span></p></pre>
+	<pre><p>Losses: <span id="loss-count"></span></p></pre>
+					
+</div>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+<script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 </html>
